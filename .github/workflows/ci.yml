@@ -38,7 +38,7 @@ jobs:
       # Verifying the right credentials
       - name: Display the Variables
         run: |
-          echo "Docker User: "  ${{ secrets.DOCKER_USERNAME i{} 
+          echo "Docker User: "  ${{ secrets.DOCKER_USERNAME }} 
           echo "Docker PW: " ${{ secrets.DOCKER_PASSWORD }} 
 
       # Optionally push the Docker image to DockerHub (replace with your own credentials)
